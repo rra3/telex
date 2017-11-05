@@ -1,0 +1,21 @@
+{
+  "name": "telex",
+  "description": "convenience app for message passing",
+  "main": "index.js",
+  "authors": [
+    "barnold"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.3.5",
+    "vue": "^2.5.3"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "telex",
+  "version": "1.0.0",
+  "description": "convenience app for message passing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "barnold",
+  "license": "ISC"
+}
