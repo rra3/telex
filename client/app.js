@@ -1,5 +1,5 @@
 requirejs.config({
-    baseUrl: 'client/app',
+    baseUrl: '../app',
     paths: {
         print: '../lib/print'
     }
