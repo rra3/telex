@@ -7,8 +7,10 @@ const port = 4000;
 
 app.set('view engine', 'pug');
 app.set('views', './server/views');
+app.use(express.static('client'));
 
 var router = express.Router();
+
 
 router.get('/', function (req, res) {
   res.render('index', {title: 'telex for message passing',
